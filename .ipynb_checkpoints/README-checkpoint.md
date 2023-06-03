@@ -8,8 +8,13 @@ After backing from the event, I think it is a good to have a summary and also an
 Topic modeling is an unsupervised machine learning technique that extract hidden topics from text. The algorithm I am going to use is LDA.
 
 Step 1 get the data - done
+
 Step 2 tokenization 
+
 Step 3
+
 Step 4 Candidate topics
+
 Step 5 Topic distribution
+
 
