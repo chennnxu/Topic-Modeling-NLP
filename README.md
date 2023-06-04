@@ -12,19 +12,15 @@ As a first-time attendee of such a great conference, I would say I am so lucky t
 
 After back from the event, I think why not using the new things you learned from the conference to make a summary of it. I am going to use spaCy to do topic modelling for all the session in PyConDe & PyData Berlin 2023.
 
+Preparation
+The pakages I need:
 ```
-# import packages
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set()
-import spacy
-import pyLDAvis.gensim_models
-pyLDAvis.enable_notebook()# Visualise inside a notebook
-import en_core_web_md
-from gensim.corpora.dictionary import Dictionary
-from gensim.models import LdaMulticore
-from gensim.models import CoherenceModel
+!pip install pyLDAvis -qq
+!pip install -qq -U gensim
+!pip install spacy -qq
+!pip install matplotlib -qq
+!pip install seaborn -qq
+!python -m spacy download en_core_web_md -qq
 ```
 
 Topic modeling is an unsupervised machine learning technique that extract hidden topics from text. The algorithm I am going to use is LDA.
@@ -39,4 +35,9 @@ Step 4 Candidate topics
 
 Step 5 Topic distribution
 
+[Github code:](pyconde_analysis.ipynb)
 
+rescouces:
+[1] https://towardsdatascience.com/topic-modelling-in-python-with-spacy-and-gensim-dc8f7748bdbf
+
+[2] https://www.kaggle.com/code/thebrownviking20/topic-modelling-with-spacy-and-scikit-learn
