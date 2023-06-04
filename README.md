@@ -10,9 +10,15 @@
 
 As a first-time attendee of such a great conference, I would say I am so lucky to get the grant provided by the Diversity Committee. It made it possible for me to attend this event and gain valuable insights into the latest trends and innovations in the field and make connection to over 1200 people with same interets. That's amazing!
 
-After back from the event, I think why not using the new things you learned from the conference to make a summary of it. I am going to use spaCy to do topic modelling for all the session in PyConDe & PyData Berlin 2023.
+After back from the event, I think why not using the new things you learned from the conference to make a summary of it. I am going to use spaCy to do topic modelling for all the sessions in PyConDe & PyData Berlin 2023.
 
-### Preparation
+
+### Analysis process and Algorithm
+
+Topic modeling is an unsupervised machine learning technique that extract hidden topics from text. The algorithm I am going to use is LDA.
+
+#### Preparation
+
 The pakages I need:
 ```
 !pip install pyLDAvis -qq
@@ -23,20 +29,18 @@ The pakages I need:
 !python -m spacy download en_core_web_md -qq
 ```
 
-Topic modeling is an unsupervised machine learning technique that extract hidden topics from text. The algorithm I am going to use is LDA.
+#### Step 1 get the data - done
 
-Step 1 get the data - done
+#### Step 2 tokenization 
 
-Step 2 tokenization 
+#### Step 3
 
-Step 3
+#### Step 4 Candidate topics
 
-Step 4 Candidate topics
-
-Step 5 Topic distribution
+#### Step 5 Topic distribution
 
 ### Links
-[1] [Link to Github Full Notebook](pyconde_analysis.ipynb)
+[1] [Github Full Notebook](pyconde_analysis.ipynb)
 
 [2] [spaCy](https://spacy.io/)
 
