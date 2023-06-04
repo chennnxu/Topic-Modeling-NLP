@@ -40,4 +40,10 @@ Step 5 Topic distribution
 ### References
 [1] [Topic Modelling in Python with spaCy and Gensim](https://towardsdatascience.com/topic-modelling-in-python-with-spacy-and-gensim-dc8f7748bdbf)
 
-[2] https://www.kaggle.com/code/thebrownviking20/topic-modelling-with-spacy-and-scikit-learn
+[2] [Topic modelling with spaCy and scikit-learn](https://www.kaggle.com/code/thebrownviking20/topic-modelling-with-spacy-and-scikit-learn)
+
+[3] [spaCy](https://spacy.io/)
+
+[4] [Prodigy](https://prodi.gy/)
+
+[5] [You are what you read: Building a personal internet front-page with spaCy and Prodigy](https://2023.pycon.de/program/NWSLUH/)
