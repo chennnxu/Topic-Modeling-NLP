@@ -38,6 +38,6 @@ Step 5 Topic distribution
 [Github code](pyconde_analysis.ipynb)
 
 ### References
-[1] [](https://towardsdatascience.com/topic-modelling-in-python-with-spacy-and-gensim-dc8f7748bdbf)
+[1] [Topic Modelling in Python with spaCy and Gensim](https://towardsdatascience.com/topic-modelling-in-python-with-spacy-and-gensim-dc8f7748bdbf)
 
 [2] https://www.kaggle.com/code/thebrownviking20/topic-modelling-with-spacy-and-scikit-learn
