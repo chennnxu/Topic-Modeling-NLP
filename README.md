@@ -12,7 +12,7 @@ As a first-time attendee of such a great conference, I would say I am so lucky t
 
 After back from the event, I think why not using the new things you learned from the conference to make a summary of it. I am going to use spaCy to do topic modelling for all the session in PyConDe & PyData Berlin 2023.
 
-###Preparation
+### Preparation
 The pakages I need:
 ```
 !pip install pyLDAvis -qq
@@ -37,7 +37,7 @@ Step 5 Topic distribution
 
 [Github code](pyconde_analysis.ipynb)
 
-###References
+### References
 [1] https://towardsdatascience.com/topic-modelling-in-python-with-spacy-and-gensim-dc8f7748bdbf
 
 [2] https://www.kaggle.com/code/thebrownviking20/topic-modelling-with-spacy-and-scikit-learn
