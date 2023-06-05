@@ -2,11 +2,14 @@
 
 
 
-![](1.png)
+<!-- ![](1.png)
 ![](2.png)
 ![](3.png)
-![](4.png)
+![](4.png) -->
 
+<div align = "center">
+<img src="1.png" width = "500" alt="profile" align=center />
+</div>
 
 As a first-time attendee of such a great conference, I would say I am so lucky to get the grant provided by the Diversity Committee. It made it possible for me to attend this event and gain valuable insights into the latest trends and innovations in the field and make connection to over 1200 people with same interets. That's amazing!
 
@@ -18,20 +21,11 @@ Topic modeling is an unsupervised machine learning technique that extract hidden
 
 ### Analysis process
 
-#### Step 0 Preparation
+#### Step 0 Get the Data
 
-The pakages I need:
-```
-!pip install pyLDAvis -qq
-!pip install -qq -U gensim
-!pip install spacy -qq
-!pip install matplotlib -qq
-!pip install seaborn -qq
-!python -m spacy download en_core_web_md -qq
-```
-I got the session json data from the PyConDe & PyData Berlin 2023 online. And then I need to preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in. 
+I got the session json data from the PyConDe & PyData Berlin 2023 online. And then I need to preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in, e.g. title, track and abstract etc.. 
 
-Fisrtly, what are all the tracks and their distribution.
+We can see from the data that there are 22 manually assigned tracks and their distribution are shown as follows.
 ```
 PyData: Natural Language Processing                                15
 PyCon: Programming & Software Engineering                          15
@@ -57,15 +51,11 @@ PyCon: Web                                                          1
 General: Infrastructure - Hardware & Cloud                          1
 ```
 
-#### Step 1 get the data - done
+#### Step 1 SpaCy Pipeline
 
-#### Step 2 tokenization 
 
-#### Step 3
 
-#### Step 4 Candidate topics
-
-#### Step 5 Topic distribution
+#### Step 2 Topic distribution and Difference
 
 ### Links
 [1] [Github Full Notebook](pyconde_analysis.ipynb)
