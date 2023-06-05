@@ -10,7 +10,7 @@
 
 As a first-time attendee of such a great conference, I would say I am so lucky to get the grant provided by the Diversity Committee. It made it possible for me to attend this event and gain valuable insights into the latest trends and innovations in the field and make connection to over 1200 people with same interets. That's amazing!
 
-After back from the event, I think why not using the new things you learned from the conference to make a summary of it. I am going to use spaCy to do topic modelling for all the sessions in PyConDe & PyData Berlin 2023.
+After back from the event, I think why not using the new things I have learned from the conference to make a summary of it. Then I decide to use spaCy to do topic modelling for all the sessions in PyConDe & PyData Berlin 2023. Actually every seesion already has manually assigned track('topic') to it. So next what is the differece of the manual assigned track and topic assigned using topic modeling algorithm. I will do a small project on it to figure it out.
 
 ### Algorithm
 
@@ -29,6 +29,7 @@ The pakages I need:
 !pip install seaborn -qq
 !python -m spacy download en_core_web_md -qq
 ```
+I got the session json data from the PyConDe & PyData Berlin 2023 online. And then I need to preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in. 
 
 #### Step 1 get the data - done
 
