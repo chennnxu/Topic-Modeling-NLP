@@ -22,7 +22,7 @@ Topic modeling is an unsupervised machine learning technique that extract hidden
 
 I got the session json data from the PyConDe & PyData Berlin 2023 website. And then I preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in, e.g. title, track and abstract etc.. 
 
-There are total 115 sessions, totally 22 tracks and their distribution are shown as following.
+There are total 115 sessions, 22 tracks and their distribution are shown as following.
 ```
 PyData: Natural Language Processing                                15
 PyCon: Programming & Software Engineering                          15
@@ -50,7 +50,7 @@ General: Infrastructure - Hardware & Cloud                          1
 
 ### Step 1 Data Analysis
 
-I will start the process by breaking down the session abstracts into tokens. From the tokens, I will build a dictionary that gives each token a unique ID, which then be used to create the Bag of Words representing the frequency of the tokens. The dictionary and the BoW are used as the inputs of the spaCy pipeline to build a range of topics. The last step is to find the distribution of topics of each session. Here is the [Github full notebook](pyconde_analysis.ipynb).
+I start the process by breaking down the session abstracts into tokens. From the tokens, I build a dictionary that gives each token a unique ID, which then be used to create the Bag of Words representing the frequency of the tokens. The dictionary and the BoW are used as the inputs of the spaCy pipeline to build a range of topics. The last step is to find the distribution of topics of each session. Here is the [Github full notebook](pyconde_analysis.ipynb).
 
 ### Step 2 Results and Discussion
 
@@ -65,7 +65,7 @@ According to the coherence score, the topic number 3 has the max value. I choose
  (1, '0.036*"machine" + 0.036*"model" + 0.034*"panda" + 0.028*"learning" + 0.024*"new" + 0.022*"change" + 0.020*"discuss" + 0.018*"Python" + 0.017*"community" + 0.016*"work"'),
  (2, '0.048*"datum" + 0.032*"Python" + 0.030*"use" + 0.023*"application" + 0.022*"code" + 0.021*"work" + 0.018*"data" + 0.018*"tool" + 0.016*"learn" + 0.013*"project"')]
 ```
-Next visulize the topics and the words in each topics. It shows word frequency (blue) and estimated term frequency within the selected topic (red).
+Finally visualize the topics and the words in each topic. It shows word frequency (blue) and estimated term frequency within the selected topic (red).
 <div align = "center">
 <img src="topic_1.png" width = "400" alt="scortopice" align=center /> <br>
 <img src="topic_2.png" width = "400" alt="scortopice" align=center /> <br>
