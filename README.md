@@ -9,7 +9,7 @@ As a first-time attendee of such a great conference, I would say I am so lucky t
 <div align = "center">
 <img src="3.png" width = "400" alt="berlin" align=center />
 <img src="4.png" width = "400" alt="berlin" align=center />
-</div>
+</div> \\
 
 After back from the event, I think why not using the new things I have learned from the conference to make a summary of it. Then I decide to use spaCy to do topic modelling for all the sessions in PyConDe & PyData Berlin 2023. Actually every seesion already has manually assigned track('topic') to it. So next what is the differece of the manual assigned track and topic assigned using topic modeling algorithm. I will do a small project on it to figure it out.
 
@@ -47,12 +47,14 @@ PyCon: Web                                                          1
 General: Infrastructure - Hardware & Cloud                          1
 ```
 
-### Step 1 SpaCy Pipeline
-Next I am going to use the spaCy to topic model the sesssion which is based the abstract of each session.
+### Step 1 Data Analysis
+Next I am going to use the spaCy to topic model the session which is based the abstract of each session.
+
+I will start the process by breaking down the session abstracts into tokens. From the tokens, I will build a dictionary that gives each token a unique ID, which then be used to create the Bag of Words representing the frequency of the tokens. The dictionary and the BoW are used as the input of the spaCy pipeline to build a range of topics. The last step is to find the distribution of topics of each session.
+
+### Step 2 Results and Discussion
 
 
-
-### Step 2 Topic distribution and Difference
 
 ### Links
 [1] [Github Full Notebook](pyconde_analysis.ipynb)
