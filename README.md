@@ -50,12 +50,12 @@ General: Infrastructure - Hardware & Cloud                          1
 
 ### Step 1 Data Analysis
 
-I start the process by breaking down the session abstracts into tokens. From the tokens, I build a dictionary that gives each token a unique ID, which then be used to create the Bag of Words representing the frequency of the tokens. The dictionary and the BoW are used as the inputs of the spaCy pipeline to build a range of topics. The last step is to find the distribution of topics of each session. Here is the [Github full notebook](pyconde_analysis.ipynb).
+I start the process by breaking down the session abstracts into tokens. From the tokens, I build a dictionary that gives each token a unique ID, which then be used to create the Bag of Words representing the frequency of the tokens. The dictionary and the BoW are used as the inputs of the spaCy pipeline to build a range of topics. The last step is to find the distribution of topics of each session. Here is the [Github full notebook]([pyconde_analysis.ipynb](https://github.com/chennnxu/pyconde2023_analysisforfun/blob/37c5a8607a8cc9293d5b730962ea18adec5723cb/pyconde_analysis.ipynb)).
 
 ### Step 2 Results and Discussion
 
 <div align = "center">
-<img src="Coherence_Score.png" width = "400" alt="score" align=center />
+<img src="Coherence_Score.png" width = "500" alt="score" align=center />
 </div>
 
 According to the coherence score, the topic number 3 has the max value. I choose go with 3 topics. Then print out the 3 topics and the related words:
@@ -67,9 +67,13 @@ According to the coherence score, the topic number 3 has the max value. I choose
 ```
 Finally visualize the topics and the words in each topic. It shows word frequency (blue) and estimated term frequency within the selected topic (red).
 <div align = "center">
-<img src="topic_1.png" width = "400" alt="scortopice" align=center /> <br>
-<img src="topic_2.png" width = "400" alt="scortopice" align=center /> <br>
-<img src="topic_3.png" width = "400" alt="scortopice" align=center /> 
+<img src="topic_1.png" width = "500" alt="scortopice" align=center />
+</div>
+<div align = "center">
+<img src="topic_2.png" width = "500" alt="scortopice" align=center />
+</div>
+<div align = "center">
+<img src="topic_3.png" width = "500" alt="scortopice" align=center /> 
 </div>
 The resulting topics distribution are: 
 
