@@ -3,8 +3,8 @@
 As a first-time attendee of such a great conference, I would say I am so lucky to get the grant provided by the Diversity Committee. It made it possible for me to attend this event and gain valuable insights into the latest trends and innovations in the field and make connection to over 1200 people with same interets. That's amazing!
 
 <div align = "center">
-<img src="1.png" width = "500" alt="profile" align=center />
-<img src="2.png" width = "500" alt="profile" align=center />
+<img src="1.png" width = "400" alt="profile" align=center />
+<img src="2.png" width = "400" alt="profile" align=center />
 </div>
 <!-- <div align = "center">
 <img src="2.png" width = "500" alt="profile" align=center />
