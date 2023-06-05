@@ -65,6 +65,12 @@ According to the coherence score, the topic number 3 has the max value. I choose
  (1, '0.036*"machine" + 0.036*"model" + 0.034*"panda" + 0.028*"learning" + 0.024*"new" + 0.022*"change" + 0.020*"discuss" + 0.018*"Python" + 0.017*"community" + 0.016*"work"'),
  (2, '0.048*"datum" + 0.032*"Python" + 0.030*"use" + 0.023*"application" + 0.022*"code" + 0.021*"work" + 0.018*"data" + 0.018*"tool" + 0.016*"learn" + 0.013*"project"')]
 ```
+Next visulize the topics and the words in each topics. It shows word frequency (blue) and estimated term frequency within the selected topic (red).
+<div align = "center">
+<img src="topic_1.png" width = "400" alt="scortopice" align=center />
+<img src="topic_2.png" width = "400" alt="scortopice" align=center />
+<img src="topic_3.png" width = "400" alt="scortopice" align=center />
+</div>
 
 <!-- [3] [Prodigy](https://prodi.gy/)
 
