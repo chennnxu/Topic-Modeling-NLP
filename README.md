@@ -3,12 +3,13 @@
 As a first-time attendee of such a great conference, I would say I am so lucky to get the grant provided by the Diversity Committee. It made it possible for me to attend this event and gain valuable insights into the latest trends and innovations in the field and make connection to over 1200 people with same interets. That's amazing!
 
 <div align = "center">
-<img src="1.png" width = "400" alt="profile" align=center />
-<img src="2.png" width = "400" alt="profile" align=center />
+<img src="1.png" width = "400" alt="berlin" align=center />
+<img src="2.png" width = "400" alt="berlin" align=center />
 </div>
-<!-- <div align = "center">
-<img src="2.png" width = "500" alt="profile" align=center />
-</div> -->
+<div align = "center">
+<img src="3.png" width = "400" alt="berlin" align=center />
+<img src="4.png" width = "400" alt="berlin" align=center />
+</div>
 
 After back from the event, I think why not using the new things I have learned from the conference to make a summary of it. Then I decide to use spaCy to do topic modelling for all the sessions in PyConDe & PyData Berlin 2023. Actually every seesion already has manually assigned track('topic') to it. So next what is the differece of the manual assigned track and topic assigned using topic modeling algorithm. I will do a small project on it to figure it out.
 
