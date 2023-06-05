@@ -10,9 +10,9 @@ As a first-time attendee of such a great conference, I would say I am so lucky t
 <img src="3.png" width = "400" alt="berlin" align=center />
 <img src="4.png" width = "400" alt="berlin" align=center />
 </div>  
+<br>
 
-
-After back from the event, I think why not using the new things I have learned from the conference to make a summary of it. Then I decide to use spaCy to do topic modelling for all the sessions in PyConDe & PyData Berlin 2023. Actually every seesion already has manually assigned track('topic') to it. So next what is the differece of the manual assigned track and topic assigned using topic modeling algorithm. I will do a small project on it to figure it out.
+After back from the event, I think why not using the new things I have learned from the conference to make a summary of it. Then I decide to use open source software library [spaCy](https://spacy.io/) to do topic modeling for all the sessions in PyConDe & PyData Berlin 2023. Actually every seesion already has manually assigned track('topic') to it. So what is the differece of the manual assigned track and topic assigned using topic modeling algorithm. I will do a small project on it to figure it out.
 
 <!-- ### Algorithm
 
@@ -20,9 +20,9 @@ Topic modeling is an unsupervised machine learning technique that extract hidden
 
 ### Step 0 Get the Data
 
-I got the session json data from the PyConDe & PyData Berlin 2023 online. And then I need to preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in, e.g. title, track and abstract etc.. 
+I got the session json data from the PyConDe & PyData Berlin 2023 website. And then I preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in, e.g. title, track and abstract etc.. 
 
-We can see from the data that there are total 115 sessions and there are totally 22 manually assigned tracks and their distribution are shown as follows.
+There are total 115 sessions, totally 22 tracks and their distribution are shown as following.
 ```
 PyData: Natural Language Processing                                15
 PyCon: Programming & Software Engineering                          15
@@ -49,18 +49,16 @@ General: Infrastructure - Hardware & Cloud                          1
 ```
 
 ### Step 1 Data Analysis
-Next I am going to use the spaCy to topic model the session which is based the abstract of each session.
 
-I will start the process by breaking down the session abstracts into tokens. From the tokens, I will build a dictionary that gives each token a unique ID, which then be used to create the Bag of Words representing the frequency of the tokens. The dictionary and the BoW are used as the input of the spaCy pipeline to build a range of topics. The last step is to find the distribution of topics of each session.
+I will start the process by breaking down the session abstracts into tokens. From the tokens, I will build a dictionary that gives each token a unique ID, which then be used to create the Bag of Words representing the frequency of the tokens. The dictionary and the BoW are used as the inputs of the spaCy pipeline to build a range of topics. The last step is to find the distribution of topics of each session. Here is the [Github full notebook](pyconde_analysis.ipynb)
 
 ### Step 2 Results and Discussion
 
+<div align = "center">
+<img src="Coherence Score.png" width = "400" alt="berlin" align=center />
+</div>
 
 
-### Links
-[1] [Github Full Notebook](pyconde_analysis.ipynb)
-
-[2] [spaCy](https://spacy.io/)
 
 <!-- [3] [Prodigy](https://prodi.gy/)
 
