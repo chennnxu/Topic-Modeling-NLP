@@ -67,11 +67,17 @@ According to the coherence score, the topic number 3 has the max value. I choose
 ```
 Next visulize the topics and the words in each topics. It shows word frequency (blue) and estimated term frequency within the selected topic (red).
 <div align = "center">
-<img src="topic_1.png" width = "400" alt="scortopice" align=center />
-<img src="topic_2.png" width = "400" alt="scortopice" align=center />
-<img src="topic_3.png" width = "400" alt="scortopice" align=center />
+<img src="topic_1.png" width = "400" alt="scortopice" align=center /> <br>
+<img src="topic_2.png" width = "400" alt="scortopice" align=center /> <br>
+<img src="topic_3.png" width = "400" alt="scortopice" align=center /> 
 </div>
-
+The resulting topics distribution are: 
+```
+topic
+0    108
+1      6
+2      1
+```
 <!-- [3] [Prodigy](https://prodi.gy/)
 
 ### References
