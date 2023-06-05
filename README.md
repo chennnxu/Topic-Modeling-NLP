@@ -31,6 +31,32 @@ The pakages I need:
 ```
 I got the session json data from the PyConDe & PyData Berlin 2023 online. And then I need to preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in. 
 
+Fisrtly, what are all the tracks and their distribution.
+```
+PyData: Natural Language Processing                                15
+PyCon: Programming & Software Engineering                          15
+Sponsor                                                            12
+PyData: PyData & Scientific Libraries Stack                        10
+PyData: Machine Learning & Stats                                   10
+PyData: Data Handling                                               9
+PyCon: DevOps & MLOps                                               8
+PyCon: Python Language                                              4
+Plenary                                                             4
+PyData: Deep Learning                                               4
+General: Ethics & Privacy                                           3
+PyCon: Libraries                                                    3
+PyData: Jupyter                                                     3
+PyCon: Testing                                                      3
+General: Others                                                     2
+General: Python & PyData Friends                                    2
+PyData: Computer Vision                                             2
+General: Community, Diversity, Career, Life and everything else     2
+PyData: Visualisation                                               1
+PyCon: Django                                                       1
+PyCon: Web                                                          1
+General: Infrastructure - Hardware & Cloud                          1
+```
+
 #### Step 1 get the data - done
 
 #### Step 2 tokenization 
@@ -46,11 +72,11 @@ I got the session json data from the PyConDe & PyData Berlin 2023 online. And th
 
 [2] [spaCy](https://spacy.io/)
 
-[3] [Prodigy](https://prodi.gy/)
+<!-- [3] [Prodigy](https://prodi.gy/)
 
 ### References
 [1] [Topic Modelling in Python with spaCy and Gensim](https://towardsdatascience.com/topic-modelling-in-python-with-spacy-and-gensim-dc8f7748bdbf)
 
 [2] [Topic modelling with spaCy and scikit-learn](https://www.kaggle.com/code/thebrownviking20/topic-modelling-with-spacy-and-scikit-learn)
 
-[3] [You are what you read: Building a personal internet front-page with spaCy and Prodigy](https://2023.pycon.de/program/NWSLUH/)
+[3] [You are what you read: Building a personal internet front-page with spaCy and Prodigy](https://2023.pycon.de/program/NWSLUH/)  -->
