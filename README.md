@@ -72,6 +72,7 @@ Next visulize the topics and the words in each topics. It shows word frequency (
 <img src="topic_3.png" width = "400" alt="scortopice" align=center /> 
 </div>
 The resulting topics distribution are: 
+
 ```
 topic
 0    108
