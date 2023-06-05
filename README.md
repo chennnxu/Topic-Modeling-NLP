@@ -17,8 +17,6 @@ After back from the event, I think why not using the new things I have learned f
 
 Topic modeling is an unsupervised machine learning technique that extract hidden topics from text. The algorithm I am going to use is LDA. -->
 
-<!-- ### Analysis process -->
-
 ### Step 0 Get the Data
 
 I got the session json data from the PyConDe & PyData Berlin 2023 online. And then I need to preprocess the data from json to pandas DataFrame, and filter the attributes I am interested in, e.g. title, track and abstract etc.. 
